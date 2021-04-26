@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="100dp"
     android:id="@+id/vholder_cl_item_container"
-    android:padding="5dp">
+    android:padding="15dp">
 
     <TextView
         android:id="@+id/vholder_items_tv_title"
@@ -22,7 +22,6 @@
         android:id="@+id/vholder_items_tv_desc"
         android:layout_width="0dp"
         android:layout_height="20dp"
-        android:layout_marginTop="15dp"
         android:gravity="left|center"
         android:text="Test2"
         app:layout_constraintLeft_toLeftOf="@id/vholder_items_tv_title"
@@ -43,8 +42,9 @@
 
     <ImageView
         android:id="@+id/vholder_items_img"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="80dp"
+        android:scaleType="fitXY"
         android:layout_margin="15dp"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintBottom_toBottomOf="parent"
